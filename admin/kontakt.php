@@ -59,6 +59,8 @@
         <input type="text" name="nummer" id="nummer">
         <p> Email </p>
         <input type="text" name="email" id="email">
+        <br>
+        <br>
         <!-- Submit button -->
         <form action="" method="">
             <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_information1" value="Lägg till"></form>
@@ -78,6 +80,8 @@
         <input type="text" name="nummer" id="nummer2">
         <p> Email </p>
         <input type="text" name="email" id="email2">
+        <br>
+        <br>
         <!-- Submit button -->
         <form action="" method="">
             <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_information2" value="Lägg till"></form>
@@ -97,6 +101,8 @@
         <input type="text" name="nummer" id="nummer3">
         <p> Email </p>
         <input type="text" name="email" id="email3">
+        <br>
+        <br>
         <!-- Submit button -->
         <form action="" method="">
             <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_information3" value="Lägg till"></form>

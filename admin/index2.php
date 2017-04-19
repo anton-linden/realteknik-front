@@ -51,7 +51,8 @@
 
         <p> Årskurs 1 </p>
         <p><textarea placeholder="Skriv här..." cols="40" rows="15" name="description" id="description"></textarea></p>
-
+        <br>
+        <br>
         <!-- Submit button -->
         <form action="" method="">
             <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_information1" value="Lägg till"></form>
@@ -63,6 +64,8 @@
     <div class="edit1">
         <p> Årskurs 2 </p>
         <p><textarea placeholder="Skriv här..." cols="40" rows="15" name="description" id="description"></textarea></p>
+        <br>
+        <br>
         <form action="" method="">
             <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_information2" value="Lägg till"></form>
         <form action="" method="">
@@ -72,6 +75,8 @@
     <div class="edit2">
         <p> Årskurs 3 </p>
         <p><textarea placeholder="Skriv här..." cols="40" rows="15" name="description" id="description"></textarea></p>
+        <br>
+        <br>
         <form action="" method="">
             <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_information3" value="Lägg till"></form>
         <form action="" method="">
@@ -81,6 +86,8 @@
         <!-- här är formen för sen då? år 4 eller jobb?  -->
         <p> Sen då? År 4 eller jobb? </p>
         <p><textarea placeholder="Skriv här..." cols="40" rows="15" name="description" id="description"></textarea></p>
+        <br>
+        <br>
         <form action="" method="">
             <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_information3" value="Lägg till"></form>
         <form action="" method="">

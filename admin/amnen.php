@@ -56,7 +56,8 @@
         <br>
         <br>
         <p><textarea placeholder="Skriv här..." cols="20" rows="3" name="description" id="description"></textarea></p>
-
+        <br>
+        <br>
         <!-- Submit button -->
         <form action="" method="">
             <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_amne" value="Lägg till"></form>
@@ -74,7 +75,8 @@
         <br>
         <br>
         <p><textarea placeholder="Skriv här..." cols="20" rows="3" name="description" id="description"></textarea></p>
-
+        <br>
+        <br>
         <!-- Submit button -->
         <form action="" method="">
             <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_amne1" value="Lägg till"></form>
@@ -92,7 +94,8 @@
         <br>
         <br>
         <p><textarea placeholder="Skriv här..." cols="20" rows="3" name="description" id="description"></textarea></p>
-
+        <br>
+        <br>
         <!-- Submit button -->
         <form action="" method="">
             <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_amne2" value="Lägg till"></form>
