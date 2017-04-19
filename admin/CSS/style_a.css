@@ -236,7 +236,7 @@ footer .glyphicon {
 }
 
 .edit {
-    margin: 0 auto;
+    margin: 15px;
     padding-bottom: 20px;
     width: 370px;
     text-align: center;
@@ -248,7 +248,7 @@ footer .glyphicon {
 }
 
 .edit1 {
-    margin: 0 auto;
+    margin: 15px;
     padding-bottom: 20px;
     width: 370px;
     text-align: center;
@@ -260,7 +260,19 @@ footer .glyphicon {
 }
 
 .edit2 {
-    margin: 0 auto;
+    margin: 15px;
+    padding-bottom: 20px;
+    width: 370px;
+    text-align: center;
+    padding-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 0 5px 10px #666;
+    float: left;
+}
+
+.edit3 {
+    margin: 15px;
     padding-bottom: 20px;
     width: 370px;
     text-align: center;

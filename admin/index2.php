@@ -49,22 +49,31 @@
 
     <div class="edit">
 
-        <p> Årskurs 1 </p>
+        <p> Årskurs 1 </p><input type="checkbox" id="checked_id[]" name="checked_id[]" value="3" />
         <p><textarea placeholder="Skriv här..." cols="40" rows="15" name="description" id="description"></textarea></p>
 
         <!-- Submit button -->
         <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_information1" value="Lägg till">
+        <input id="button" type="submit" name="del_information1" value="Ta bort">
 
     </div>
     <div class="edit1">
-        <p> Årskurs 2 </p>
+        <p> Årskurs 2 </p><input type="checkbox" id="checked_id[]" name="checked_id[]" value="3" />
         <p><textarea placeholder="Skriv här..." cols="40" rows="15" name="description" id="description"></textarea></p>
         <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_information2" value="Lägg till">
+        <input id="button" type="submit" name="del_information2" value="Ta bort">
     </div>
     <div class="edit2">
-        <p> Årskurs 3 </p>
+        <p> Årskurs 3 </p><input type="checkbox" id="checked_id[]" name="checked_id[]" value="3" />
         <p><textarea placeholder="Skriv här..." cols="40" rows="15" name="description" id="description"></textarea></p>
         <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_information3" value="Lägg till">
+        <input id="button" type="submit" name="del_information3" value="Ta bort">
+    </div>
+    <div class="edit3">
+        <p> Sen då? År 4 eller jobb? </p><input type="checkbox" id="checked_id[]" name="checked_id[]" value="3" />
+        <p><textarea placeholder="Skriv här..." cols="40" rows="15" name="description" id="description"></textarea></p>
+        <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_information3" value="Lägg till">
+        <input id="button" type="submit" name="del_information3" value="Ta bort">
     </div>
 </body>
 
