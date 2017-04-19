@@ -45,6 +45,61 @@
         <h1 style="font-family: myFirstFont;"><img alt="" src="img/teknik-rosa.png" width="60" height="60" />&nbsp;&nbsp;&nbsp;&nbsp;Teknik</h1>
         <p style="font-family: myFirstFont; font-size:24px;">Gör det roligt - Lär på riktigt</p>
     </div>
+
+    <div class="edit">
+        <!-- ort namn title och telefon nummer -->
+        <h2>Ämne</h2>
+        <p> Bild </p>
+        <input id="file" type="file" name="bild" id="bild" />
+        <p> Titel </p>
+        <input type="text" name="title" id="title">
+        <br>
+        <br>
+        <p><textarea placeholder="Skriv här..." cols="20" rows="3" name="description" id="description"></textarea></p>
+
+        <!-- Submit button -->
+        <form action="" method="">
+            <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_amne" value="Lägg till"></form>
+        <form action="" method="">
+            <input id="button" type="submit" name="del_amne" value="Ta bort">
+        </form>
+    </div>
+    <div class="edit2">
+        <!-- ort namn title och telefon nummer -->
+        <h2>Ämne</h2>
+        <p> Bild </p>
+        <input id="file" type="file" name="bild2" id="bild2" />
+        <p> Titel </p>
+        <input type="text" name="title1" id="title1">
+        <br>
+        <br>
+        <p><textarea placeholder="Skriv här..." cols="20" rows="3" name="description" id="description"></textarea></p>
+
+        <!-- Submit button -->
+        <form action="" method="">
+            <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_amne1" value="Lägg till"></form>
+        <form action="" method="">
+            <input id="button" type="submit" name="del_amne1" value="Ta bort">
+        </form>
+    </div>
+    <div class="edit3">
+        <!-- ort namn title och telefon nummer -->
+        <h2>Ämne</h2>
+        <p> Bild </p>
+        <input id="file" type="file" name="bild2" id="bild2" />
+        <p> Titel </p>
+        <input type="text" name="title2" id="title2">
+        <br>
+        <br>
+        <p><textarea placeholder="Skriv här..." cols="20" rows="3" name="description" id="description"></textarea></p>
+
+        <!-- Submit button -->
+        <form action="" method="">
+            <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_amne2" value="Lägg till"></form>
+        <form action="" method="">
+            <input id="button" type="submit" name="del_amne2" value="Ta bort">
+        </form>
+    </div>
 </body>
 
 </html>

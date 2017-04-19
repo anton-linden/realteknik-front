@@ -45,6 +45,65 @@
         <h1 style="font-family: myFirstFont;"><img alt="" src="img/teknik-rosa.png" width="60" height="60" />&nbsp;&nbsp;&nbsp;&nbsp;Teknik</h1>
         <p style="font-family: myFirstFont; font-size:24px;">Gör det roligt - Lär på riktigt</p>
     </div>
+
+
+    <div class="edit">
+        <!-- ort namn title och telefon nummer -->
+        <h2>Gävle</h2>
+
+        <p> Namn </p>
+        <input type="text" name="name" id="name">
+        <p> Titel </p>
+        <input type="text" name="roll" id="roll">
+        <p> Telefon nummer </p>
+        <input type="text" name="nummer" id="nummer">
+        <p> Email </p>
+        <input type="text" name="email" id="email">
+        <!-- Submit button -->
+        <form action="" method="">
+            <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_information1" value="Lägg till"></form>
+        <form action="" method="">
+            <input id="button" type="submit" name="del_information1" value="Ta bort">
+        </form>
+    </div>
+    <div class="edit1">
+        <!-- ort namn title och telefon nummer -->
+        <h2>Linköping</h2>
+
+        <p> Namn </p>
+        <input type="text" name="name" id="name2">
+        <p> Titel </p>
+        <input type="text" name="roll" id="roll2">
+        <p> Telefon nummer </p>
+        <input type="text" name="nummer" id="nummer2">
+        <p> Email </p>
+        <input type="text" name="email" id="email2">
+        <!-- Submit button -->
+        <form action="" method="">
+            <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_information2" value="Lägg till"></form>
+        <form action="" method="">
+            <input id="button" type="submit" name="del_information2" value="Ta bort">
+        </form>
+    </div>
+    <div class="edit2">
+        <!-- ort namn title och telefon nummer -->
+        <h2>Norrköping</h2>
+
+        <p> Namn </p>
+        <input type="text" name="name" id="name3">
+        <p> Titel </p>
+        <input type="text" name="roll" id="roll3">
+        <p> Telefon nummer </p>
+        <input type="text" name="nummer" id="nummer3">
+        <p> Email </p>
+        <input type="text" name="email" id="email3">
+        <!-- Submit button -->
+        <form action="" method="">
+            <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_information3" value="Lägg till"></form>
+        <form action="" method="">
+            <input id="button" type="submit" name="del_information3" value="Ta bort">
+        </form>
+    </div>
 </body>
 
 </html>
