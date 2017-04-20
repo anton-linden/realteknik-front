@@ -40,7 +40,7 @@
 </nav>
 <!--Header med text-->
 <div class="jumbotron text-center">
-  <h1 style="font-family: myFirstFont;"><img alt="" src="img/teknik-rosa.png" width="60" height="60"/>&nbsp;&nbsp;&nbsp;&nbsp;Teknik</h1>
+  <h1 style="font-family: myFirstFont;"><img alt="" src="img/teknik-rosa.png" width="60" height="60"/>&nbsp;&nbsp;&nbsp;Teknik</h1>
   <p style="font-family: myFirstFont; font-size:24px;">Gör det roligt - Lär på riktigt</p>
 </div>
 
