@@ -47,7 +47,7 @@
     </div>
 
 
-    <div class="edit">
+    <div class="gavle">
         <!-- ort namn title och telefon nummer -->
         <h2>Gävle</h2>
 
@@ -59,14 +59,14 @@
         <input type="text" name="nummer" id="nummer">
         <p> Email </p>
         <input type="text" name="email" id="email">
+        <br>
+        <br>
         <!-- Submit button -->
         <form action="" method="">
-            <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_information1" value="Lägg till"></form>
-        <form action="" method="">
-            <input id="button" type="submit" name="del_information1" value="Ta bort">
-        </form>
+            <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_kontakt" value="Lägg till"></form>
+
     </div>
-    <div class="edit1">
+    <div class="lin">
         <!-- ort namn title och telefon nummer -->
         <h2>Linköping</h2>
 
@@ -78,14 +78,14 @@
         <input type="text" name="nummer" id="nummer2">
         <p> Email </p>
         <input type="text" name="email" id="email2">
+        <br>
+        <br>
         <!-- Submit button -->
         <form action="" method="">
-            <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_information2" value="Lägg till"></form>
-        <form action="" method="">
-            <input id="button" type="submit" name="del_information2" value="Ta bort">
-        </form>
+            <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_kontakt2" value="Lägg till"></form>
+
     </div>
-    <div class="edit2">
+    <div class="norr">
         <!-- ort namn title och telefon nummer -->
         <h2>Norrköping</h2>
 
@@ -97,13 +97,16 @@
         <input type="text" name="nummer" id="nummer3">
         <p> Email </p>
         <input type="text" name="email" id="email3">
+        <br>
+        <br>
         <!-- Submit button -->
         <form action="" method="">
-            <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_information3" value="Lägg till"></form>
-        <form action="" method="">
-            <input id="button" type="submit" name="del_information3" value="Ta bort">
-        </form>
+            <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_kontakt3" value="Lägg till"></form>
+
     </div>
+    <form action="" method="">
+        <input id="button" style="float:right;margin-right:490px;" type="submit" name="del_kontakt" value="Ta bort">
+    </form>
 </body>
 
 </html>

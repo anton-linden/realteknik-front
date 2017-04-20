@@ -282,3 +282,67 @@ footer .glyphicon {
     box-shadow: 0 5px 10px #666;
     float: left;
 }
+
+.citat {
+    margin: 15px;
+    padding-bottom: 20px;
+    width: 370px;
+    text-align: center;
+    padding-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 0 5px 10px #666;
+    margin-left: 40%
+}
+
+.amnen {
+    margin: 15px;
+    padding-bottom: 20px;
+    width: 370px;
+    text-align: center;
+    padding-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 0 5px 10px #666;
+    margin-left: 40%
+}
+
+#file {
+    margin-left: 100px;
+}
+
+.gavle {
+    margin: 15px;
+    padding-bottom: 20px;
+    width: 370px;
+    text-align: center;
+    padding-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 0 5px 10px #666;
+    float: left;
+}
+
+.lin {
+    margin: 15px;
+    padding-bottom: 20px;
+    width: 370px;
+    text-align: center;
+    padding-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 0 5px 10px #666;
+    float: left;
+}
+
+.norr {
+    margin: 15px;
+    padding-bottom: 20px;
+    width: 370px;
+    text-align: center;
+    padding-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 0 5px 10px #666;
+    float: left;
+}

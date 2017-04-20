@@ -45,6 +45,30 @@
         <h1 style="font-family: myFirstFont;"><img alt="" src="img/teknik-rosa.png" width="60" height="60" />&nbsp;&nbsp;&nbsp;&nbsp;Teknik</h1>
         <p style="font-family: myFirstFont; font-size:24px;">Gör det roligt - Lär på riktigt</p>
     </div>
+
+    <div class="citat">
+
+        <!-- ort namn title och telefon nummer -->
+        <h2>Citat</h2>
+
+        <p> Text </p>
+        <input type="text" name="text" id="text">
+
+        <p> namn </p>
+        <input type="text" name="name" id="name">
+        <p> skola </p>
+        <input type="text" name="skola" id="skola">
+        <br>
+        <br>
+
+        <!-- Submit button -->
+        <form action="" method="">
+            <input id="button" style="float:center;margin-right:45px;" type="submit" name="add_citat" value="Lägg till"></form>
+
+    </div>
+    <form action="" method="">
+        <input id="button" style="float:right;margin-right:490px;" type="submit" name="del_citat" value="Ta bort">
+    </form>
 </body>
 
 </html>
