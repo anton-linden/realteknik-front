@@ -47,9 +47,9 @@
     </div>
 
 
-    <div class="col-sm-6">
+    <div style="text-align: center; width:33.3333333%;" class="col-sm-6">
         <!-- ort namn title och telefon nummer -->
-        <div class="gavle style=" display: inline-block;>
+        <div style="display: inline-block;" class="gavle">
             <h2>Gävle</h2>
 
             <p> Namn </p>
@@ -70,11 +70,9 @@
 
     </div>
 
-
-    </div>
-    <div class="col-sm-6">
+    <div style="text-align: center; width:33.3333333%;" class="col-sm-6">
         <!-- ort namn title och telefon nummer -->
-        <div class="lin style=" display: inline-block;>
+        <div style="display: inline-block;" class="lin">
             <h2>LINKÖPING</h2>
 
             <p> Namn </p>
@@ -94,9 +92,9 @@
         </div>
 
     </div>
-    <div class="col-sm-6">
+    <div style="text-align: center; width:33.3333333%;" class="col-sm-6">
         <!-- ort namn title och telefon nummer -->
-        <div class="norr style=" display: inline-block;>
+        <div style="display: inline-block;" class="norr">
             <h2>NORRKÖPING</h2>
 
             <p> Namn </p>
