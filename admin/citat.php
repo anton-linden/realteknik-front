@@ -46,7 +46,7 @@
         <p style="font-family: myFirstFont; font-size:24px;">Gör det roligt - Lär på riktigt</p>
     </div>
 
-    <div class="edit">
+    <div class="citat">
 
         <!-- ort namn title och telefon nummer -->
         <h2>Citat</h2>
@@ -63,11 +63,12 @@
 
         <!-- Submit button -->
         <form action="" method="">
-            <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_amne" value="Lägg till"></form>
-        <form action="" method="">
-            <input id="button" type="submit" name="del_amne" value="Ta bort">
-        </form>
+            <input id="button" style="float:center;margin-right:45px;" type="submit" name="add_citat" value="Lägg till"></form>
 
+    </div>
+    <form action="" method="">
+        <input id="button" style="float:right;margin-right:490px;" type="submit" name="del_citat" value="Ta bort">
+    </form>
 </body>
 
 </html>
