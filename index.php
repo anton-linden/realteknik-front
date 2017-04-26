@@ -36,6 +36,7 @@
                     <li><a href="amnen.php">ÄMNEN</a></li>
                     <li><a href="citat.php">CITAT</a></li>
                     <li><a href="kontakt.php">KONTAKT</a></li>
+                    <li><a href=".php">ANVÄNDARE</a></li>
                     <li><a href="login.php">LOGGA UT</a></li>
                 </ul>
             </div>
@@ -47,51 +48,7 @@
         <p style="font-family: myFirstFont; font-size:24px;">Gör det roligt - Lär på riktigt</p>
     </div>
 
-    <!-- här är första formen för årskurs 1 -->
-    <div class="edit col-sm-6">
 
-        <p> Årskurs 1 </p>
-        <p><textarea placeholder="Skriv här..." cols="40" rows="15" name="description" id="description"></textarea></p>
-        <br>
-        <br>
-        <!-- Submit button -->
-        <form action="" method="">
-            <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_information1" value="Lägg till"></form>
-
-    </div>
-    <!-- här är andra formen för årskurs 2 -->
-    <div class="edit1 col-sm-6">
-        <p> Årskurs 2 </p>
-        <p><textarea placeholder="Skriv här..." cols="40" rows="15" name="description" id="description"></textarea></p>
-        <br>
-        <br>
-        <form action="" method="">
-            <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_information2" value="Lägg till"></form>
-
-    </div>
-    <!-- här är tredje formen för årskurs 3 -->
-    <div class="edit2 col-sm-6">
-        <p> Årskurs 3 </p>
-        <p><textarea placeholder="Skriv här..." cols="40" rows="15" name="description" id="description"></textarea></p>
-        <br>
-        <br>
-        <form action="" method="">
-            <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_information3" value="Lägg till"></form>
-
-    </div>
-    <div class="edit3 col-sm-6">
-        <!-- här är formen för sen då? år 4 eller jobb?  -->
-        <p> Sen då? År 4 eller jobb? </p>
-        <p><textarea placeholder="Skriv här..." cols="40" rows="15" name="description" id="description"></textarea></p>
-        <br>
-        <br>
-        <form action="" method="">
-            <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_information3" value="Lägg till"></form>
-
-    </div>
-    <form action="" method="">
-        <input id="button" style="float:right;margin-right:490px;" type="submit" name="del_information" value="Ta bort">
-    </form>
 </body>
 
 </html>

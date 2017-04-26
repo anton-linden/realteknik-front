@@ -36,6 +36,7 @@
                     <li><a href="amnen.php">ÄMNEN</a></li>
                     <li><a href="citat.php">CITAT</a></li>
                     <li><a href="kontakt.php">KONTAKT</a></li>
+                    <li><a href=".php">ANVÄNDARE</a></li>
                     <li><a href="login.php">LOGGA UT</a></li>
                 </ul>
             </div>
