@@ -4,7 +4,6 @@
 	<title>REAL-gymnasiets Teknikprogram</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <!--<link href="Css/bootstrap.min.css" rel="stylesheet" type="text/css">-->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
       <link href="Css/Archer-Bold.otf" rel="" type="">
       <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
@@ -34,6 +33,7 @@
         <li><a href="#portfolio">COOLA PROJEKT</a></li>
         <li><a href="#pricing">ANSÖK</a></li>
         <li><a href="#contact">KONTAKT</a></li>
+        <li><a href="login.php">ADMIN</a></li>
       </ul>
     </div>
   </div>
