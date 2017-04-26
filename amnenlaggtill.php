@@ -62,7 +62,7 @@
         <br>
         <!-- Submit button -->
         <form action="" method="">
-            <input id="button" style="float:center;margin-right:45px;" type="submit" name="add_amne" value="Lägg till"></form>
+            <input id="button" type="submit" name="add_amne" value="Lägg till"></form>
     </div>
 
 </body>

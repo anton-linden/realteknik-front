@@ -53,19 +53,19 @@
         <!-- ort namn title och telefon nummer -->
         <h2>Citat</h2>
 
-        <p> Text </p>
+        <p> Citat </p>
         <input type="text" name="text" id="text">
 
-        <p> namn </p>
+        <p> Namn </p>
         <input type="text" name="name" id="name">
-        <p> skola </p>
+        <p> Skola </p>
         <input type="text" name="skola" id="skola">
         <br>
         <br>
 
         <!-- Submit button -->
         <form action="" method="">
-            <input id="button" style="float:center;margin-right:45px;" type="submit" name="add_citat" value="Lägg till"></form>
+            <input id="button" type="submit" name="add_citat" value="Lägg till"></form>
 
     </div>
 
