@@ -26,15 +26,64 @@
       </button>
       <a class="navbar-brand" href="#myPage" style="font-family:myFirstFont;">REAL - TEKNIK</a>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar" style="font-family: myFirstFont;">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">OM</a></li>
-        <li><a href="#amnen">ÄMNEN</a></li>
-        <li><a href="#portfolio">COOLA PROJEKT</a></li>
-        <li><a href="#pricing">ANSÖK</a></li>
-        <li><a href="#contact">KONTAKT</a></li>
-        <li><a href="login.php">ADMIN</a></li>
+    <div class="collapse navbar-collapse dropdown" id="myNavbar" style="font-family: myFirstFont;">
+        
+
+      <ul class="nav navbar-nav navbar-right ">
+          
+        <li class="dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">ÅRSKURSER <b class="caret"></b></a>
+                <ul style="" class="dropdown-menu">
+                    <li><a href="#">ÄNDRA</a></li>
+                </ul>
+        </li>
+        <li class="dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">PROJEKT <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">LÄGG TILL</a></li>
+                    <li><a href="#">TA BORT</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">ÄNDRA</a></li>
+                </ul>
+            </li>
+        <li class="dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">ÄMNEN <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">LÄGG TILL</a></li>
+                    <li><a href="#">TA BORT</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">ÄNDRA</a></li>
+                </ul>
+            </li>
+        <li class="dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">CITAT <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">LÄGG TILL</a></li>
+                    <li><a href="#">TA BORT</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">ÄNDRA</a></li>
+                </ul>
+            </li>
+        <li class="dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">KONTAKT <b class="caret"></b></a>
+                <ul style="min-width: 100%; letter-spacing: 2px;" class="dropdown-menu">
+                    <li><a href="#">ÄNDRA</a></li>
+                </ul>
+            </li>
+        <li class="dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">ANVÄNDARE<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">LÄGG TILL</a></li>
+                    <li><a href="#">TA BORT</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">ÄNDRA</a></li>
+                </ul>
+            </li>
+          
       </ul>
+        
+        
+        
     </div>
   </div>
 </nav>
