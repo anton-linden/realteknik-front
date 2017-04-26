@@ -82,7 +82,7 @@
                             <li><a href="#">ÄNDRA</a></li>
                         </ul>
                     </li>
-
+                    <li><a href="logout.php">LOGGA UT</a></li>
                 </ul>
 
 
