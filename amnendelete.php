@@ -31,7 +31,7 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar" style="font-family: myFirstFont;">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="arskurs.php">ÅRSKURSER</a></li>
+                    <li><a href="index.php">ÅRSKURSER</a></li>
                     <li><a href="projekt.php">PROJEKT</a></li>
                     <li><a href="amnen.php">ÄMNEN</a></li>
                     <li><a href="citat.php">CITAT</a></li>
@@ -47,6 +47,20 @@
         <h1 style="font-family: myFirstFont;"><img alt="" src="img/teknik-rosa.png" width="60" height="60" />&nbsp;&nbsp;&nbsp;&nbsp;Teknik</h1>
         <p style="font-family: myFirstFont; font-size:24px;">Gör det roligt - Lär på riktigt</p>
     </div>
+
+    <div class="amnen">
+        <!-- ort namn title och telefon nummer -->
+        <h2>Ta bort ämne</h2>
+
+        <p> ID </p>
+        <input type="text" placeholder="Skriv ID som ska raderas..." name="title" id="title">
+        <br>
+        <br>
+        <!-- Submit button -->
+        <form action="" method="">
+            <input id="button" type="submit" name="delete_amne" value="Ta bort"></form>
+    </div>
+
 </body>
 
 </html>
