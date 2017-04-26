@@ -102,7 +102,7 @@
         <p> Bild </p>
         <input id="file" type="file" name="bild" id="bild" />
         <p> Titel </p>
-        <input type="text" name="title" id="title">
+        <input type="text" placeholder="Ämnets namn.." name="title" id="title">
         <br>
         <br>
         <p><textarea placeholder="Skriv här..." cols="20" rows="3" name="description" id="description"></textarea></p>

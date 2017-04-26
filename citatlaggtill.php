@@ -101,12 +101,12 @@
         <h2>Citat</h2>
 
         <p> Citat </p>
-        <input type="text" name="text" id="text">
+        <input type="text" placeholder="Citatet.." name="text" id="text">
 
         <p> Namn </p>
-        <input type="text" name="name" id="name">
+        <input type="text" placeholder="Elevens namn.." name="name" id="name">
         <p> Skola </p>
-        <input type="text" name="skola" id="skola">
+        <input type="text" placeholder="Skolan.." name="skola" id="skola">
         <br>
         <br>
 
