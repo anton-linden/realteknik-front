@@ -31,12 +31,15 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar" style="font-family: myFirstFont;">
                 <ul class="nav navbar-nav navbar-right">
+
                     <li><a href="arskurs.php">ÅRSKURSER</a></li>
                     <li><a href="projekt.php">PROJEKT</a></li>
+
+                    <li><a href="index.php">ÅRSKURSER</a></li>
+
                     <li><a href="amnen.php">ÄMNEN</a></li>
                     <li><a href="citat.php">CITAT</a></li>
                     <li><a href="kontakt.php">KONTAKT</a></li>
-                    <li><a href=".php">ANVÄNDARE</a></li>
                     <li><a href="login.php">LOGGA UT</a></li>
                 </ul>
             </div>
@@ -48,6 +51,25 @@
         <p style="font-family: myFirstFont; font-size:24px;">Gör det roligt - Lär på riktigt</p>
     </div>
 
+    <div class="amnen">
+        <!-- ort namn title och telefon nummer -->
+        <h2>Ämne</h2>
+        <p> Bild </p>
+        <input id="file" type="file" name="bild" id="bild" />
+        <p> Titel </p>
+        <input type="text" name="title" id="title">
+        <br>
+        <br>
+        <p><textarea placeholder="Skriv här..." cols="20" rows="3" name="description" id="description"></textarea></p>
+        <br>
+        <br>
+        <!-- Submit button -->
+        <form action="" method="">
+            <input id="button" style="float:center;margin-right:45px;" type="submit" name="add_amne" value="Lägg till"></form>
+    </div>
+    <form action="" method="">
+        <input id="button" style="float:right;margin-right:490px;" type="submit" name="del_amne" value="Ta bort">
+    </form>
 </body>
 
 </html>
