@@ -111,13 +111,13 @@
             <br>
             <!-- Submit button -->
             <form action="" method="">
-                <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_kontakt" value="Lägg till"></form>
+                <input id="button" type="submit" name="add_kontakt" value="Lägg till"></form>
 
         </div>
 
     </div>
     <form action="" method="">
-        <input id="button" style="float:right;margin-right:490px;" type="submit" name="del_kontakt" value="Ta bort">
+        <input id="button" type="submit" name="del_kontakt" value="Ta bort">
     </form>
 </body>
 
