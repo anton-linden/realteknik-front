@@ -17,7 +17,6 @@
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-
     <!--NavBar-->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -29,16 +28,64 @@
       </button>
                 <a class="navbar-brand" href="#myPage" style="font-family:myFirstFont;">REAL - TEKNIK</a>
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar" style="font-family: myFirstFont;">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="arskurs.php">ÅRSKURSER</a></li>
-                    <li><a href="projekt.php">PROJEKT</a></li>
-                    <li><a href="amnen.php">ÄMNEN</a></li>
-                    <li><a href="citat.php">CITAT</a></li>
-                    <li><a href="kontakt.php">KONTAKT</a></li>
-                    <li><a href=".php">ANVÄNDARE</a></li>
-                    <li><a href="login.php">LOGGA UT</a></li>
+            <div class="collapse navbar-collapse dropdown" id="myNavbar" style="font-family: myFirstFont;">
+
+
+                <ul class="nav navbar-nav navbar-right ">
+
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">ÅRSKURSER <b class="caret"></b></a>
+                        <ul style="" class="dropdown-menu">
+                            <li><a href="arskurschange.php">ÄNDRA</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">PROJEKT <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">LÄGG TILL</a></li>
+                            <li><a href="#">TA BORT</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">ÄNDRA</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">ÄMNEN <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="amnenlaggtill.php">LÄGG TILL</a></li>
+                            <li><a href="amnendelete.php">TA BORT</a></li>
+                            <li class="divider"></li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">CITAT <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="citatlaggtill.php">LÄGG TILL</a></li>
+                            <li><a href="citatdelete.php">TA BORT</a></li>
+                            <li class="divider"></li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">KONTAKT <b class="caret"></b></a>
+                        <ul style="min-width: 100%; letter-spacing: 2px;" class="dropdown-menu">
+                            <li><a href="kontaktchange.php">ÄNDRA</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">ANVÄNDARE<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">LÄGG TILL</a></li>
+                            <li><a href="#">TA BORT</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">ÄNDRA</a></li>
+                        </ul>
+                    </li>
+
                 </ul>
+
+
+
             </div>
         </div>
     </nav>
