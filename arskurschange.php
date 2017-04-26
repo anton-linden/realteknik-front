@@ -31,7 +31,7 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar" style="font-family: myFirstFont;">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.php">ÅRSKURSER</a></li>
+                    <li><a href="arskurs.php">ÅRSKURSER</a></li>
                     <li><a href="projekt.php">PROJEKT</a></li>
                     <li><a href="amnen.php">ÄMNEN</a></li>
                     <li><a href="citat.php">CITAT</a></li>
@@ -57,7 +57,7 @@
         <br>
         <!-- Submit button -->
         <form action="" method="">
-            <input id="button" type="submit" name="add_information1" value="Lägg till"></form>
+            <input id="button" type="submit" name="add_information1" value="Ändra"></form>
 
     </div>
     <!-- här är andra formen för årskurs 2 -->
@@ -67,7 +67,7 @@
         <br>
         <br>
         <form action="" method="">
-            <input id="button" type="submit" name="add_information2" value="Lägg till"></form>
+            <input id="button" type="submit" name="add_information2" value="Ändra"></form>
 
     </div>
     <!-- här är tredje formen för årskurs 3 -->
@@ -77,7 +77,7 @@
         <br>
         <br>
         <form action="" method="">
-            <input id="button" type="submit" name="add_information3" value="Lägg till"></form>
+            <input id="button" type="submit" name="add_information3" value="Ändra"></form>
 
     </div>
     <div class="edit3 col-sm-6">
@@ -87,7 +87,7 @@
         <br>
         <br>
         <form action="" method="">
-            <input id="button" type="submit" name="add_information3" value="Lägg till"></form>
+            <input id="button" type="submit" name="add_information3" value="Ändra"></form>
 
     </div>
 

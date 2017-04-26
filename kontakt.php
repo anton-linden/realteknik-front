@@ -31,7 +31,12 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar" style="font-family: myFirstFont;">
                 <ul class="nav navbar-nav navbar-right">
+
+                    <li><a href="arskurs.php">ÅRSKURSER</a></li>
+                    <li><a href="projekt.php">PROJEKT</a></li>
+
                     <li><a href="index.php">ÅRSKURSER</a></li>
+
                     <li><a href="amnen.php">ÄMNEN</a></li>
                     <li><a href="citat.php">CITAT</a></li>
                     <li><a href="kontakt.php">KONTAKT</a></li>
