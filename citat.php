@@ -32,9 +32,11 @@
             <div class="collapse navbar-collapse" id="myNavbar" style="font-family: myFirstFont;">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.php">ÅRSKURSER</a></li>
+                    <li><a href="projekt.php">PROJEKT</a></li>
                     <li><a href="amnen.php">ÄMNEN</a></li>
                     <li><a href="citat.php">CITAT</a></li>
                     <li><a href="kontakt.php">KONTAKT</a></li>
+                    <li><a href=".php">ANVÄNDARE</a></li>
                     <li><a href="login.php">LOGGA UT</a></li>
                 </ul>
             </div>
@@ -46,29 +48,6 @@
         <p style="font-family: myFirstFont; font-size:24px;">Gör det roligt - Lär på riktigt</p>
     </div>
 
-    <div class="citat">
-
-        <!-- ort namn title och telefon nummer -->
-        <h2>Citat</h2>
-
-        <p> Text </p>
-        <input type="text" name="text" id="text">
-
-        <p> namn </p>
-        <input type="text" name="name" id="name">
-        <p> skola </p>
-        <input type="text" name="skola" id="skola">
-        <br>
-        <br>
-
-        <!-- Submit button -->
-        <form action="" method="">
-            <input id="button" style="float:center;margin-right:45px;" type="submit" name="add_citat" value="Lägg till"></form>
-
-    </div>
-    <form action="" method="">
-        <input id="button" style="float:right;margin-right:490px;" type="submit" name="del_citat" value="Ta bort">
-    </form>
 </body>
 
 </html>

@@ -24,6 +24,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+      HTML&CSS-Städer
       <a class="navbar-brand" href="#myPage" style="font-family:myFirstFont;">REAL - TEKNIK</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar" style="font-family: myFirstFont;">
@@ -308,6 +309,31 @@ Apputvecklare, Gränssnittsdesigner, Systemvetare, Spelutvecklare, Civilingenjö
     <h4>Börja jobba - Plugga vidare</h4>
   </div>
 </div>
+
+                <a class="navbar-brand" href="#myPage" style="font-family:myFirstFont;">REAL - TEKNIK</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar" style="font-family: myFirstFont;">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.php">ÅRSKURSER</a></li>
+                    <li><a href="projekt.php">PROJEKT</a></li>
+                    <li><a href="amnen.php">ÄMNEN</a></li>
+                    <li><a href="citat.php">CITAT</a></li>
+                    <li><a href="kontakt.php">KONTAKT</a></li>
+                    <li><a href=".php">ANVÄNDARE</a></li>
+                    <li><a href="login.php">LOGGA UT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Header med text-->
+    <div class="jumbotron text-center">
+        <h1 style="font-family: myFirstFont;"><img alt="" src="img/teknik-rosa.png" width="60" height="60" />&nbsp;&nbsp;&nbsp;&nbsp;Teknik</h1>
+        <p style="font-family: myFirstFont; font-size:24px;">Gör det roligt - Lär på riktigt</p>
+    </div>
+
+
+</body>
+
 
 <!-- Container (Kontakt Section) -->
 <div id="contact" class="container-fluid bg-grey">

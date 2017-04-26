@@ -48,24 +48,76 @@
         <p style="font-family: myFirstFont; font-size:24px;">Gör det roligt - Lär på riktigt</p>
     </div>
 
-    <div class="amnen">
+
+    <div style="text-align: center; width:33.3333333%;" class="col-sm-6">
         <!-- ort namn title och telefon nummer -->
-        <h2>Ämne</h2>
-        <p> Bild </p>
-        <input id="file" type="file" name="bild" id="bild" />
-        <p> Titel </p>
-        <input type="text" name="title" id="title">
-        <br>
-        <br>
-        <p><textarea placeholder="Skriv här..." cols="20" rows="3" name="description" id="description"></textarea></p>
-        <br>
-        <br>
-        <!-- Submit button -->
-        <form action="" method="">
-            <input id="button" style="float:center;margin-right:45px;" type="submit" name="add_amne" value="Lägg till"></form>
+        <div style="display: inline-block;" class="gavle">
+            <h2>Gävle</h2>
+
+            <p> Namn </p>
+            <input type="text" name="name" id="name">
+            <p> Titel </p>
+            <input type="text" name="roll" id="roll">
+            <p> Telefon nummer </p>
+            <input type="text" name="nummer" id="nummer">
+            <p> Email </p>
+            <input type="text" name="email" id="email">
+            <br>
+            <br>
+            <!-- Submit button -->
+            <form action="" method="">
+                <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_kontakt" value="Lägg till"></form>
+
+        </div>
+
+    </div>
+
+    <div style="text-align: center; width:33.3333333%;" class="col-sm-6">
+        <!-- ort namn title och telefon nummer -->
+        <div style="display: inline-block;" class="lin">
+            <h2>LINKÖPING</h2>
+
+            <p> Namn </p>
+            <input type="text" name="name" id="name">
+            <p> Titel </p>
+            <input type="text" name="roll" id="roll">
+            <p> Telefon nummer </p>
+            <input type="text" name="nummer" id="nummer">
+            <p> Email </p>
+            <input type="text" name="email" id="email">
+            <br>
+            <br>
+            <!-- Submit button -->
+            <form action="" method="">
+                <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_kontakt" value="Lägg till"></form>
+
+        </div>
+
+    </div>
+    <div style="text-align: center; width:33.3333333%;" class="col-sm-6">
+        <!-- ort namn title och telefon nummer -->
+        <div style="display: inline-block;" class="norr">
+            <h2>NORRKÖPING</h2>
+
+            <p> Namn </p>
+            <input type="text" name="name" id="name">
+            <p> Titel </p>
+            <input type="text" name="roll" id="roll">
+            <p> Telefon nummer </p>
+            <input type="text" name="nummer" id="nummer">
+            <p> Email </p>
+            <input type="text" name="email" id="email">
+            <br>
+            <br>
+            <!-- Submit button -->
+            <form action="" method="">
+                <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_kontakt" value="Lägg till"></form>
+
+        </div>
+
     </div>
     <form action="" method="">
-        <input id="button" style="float:right;margin-right:490px;" type="submit" name="del_amne" value="Ta bort">
+        <input id="button" style="float:right;margin-right:490px;" type="submit" name="del_kontakt" value="Ta bort">
     </form>
 </body>
 
