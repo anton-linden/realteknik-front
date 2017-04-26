@@ -26,15 +26,15 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="index2.php#myPage" class="navbar-brand" href="#myPage" style="font-family:myFirstFont;">REAL - TEKNIK</a>
+            <a href="index.php#myPage" class="navbar-brand" href="#myPage" style="font-family:myFirstFont;">REAL - TEKNIK</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar" style="font-family: myFirstFont;">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="index2.php#about">OM</a></li>
-                <li><a href="index2.php#amnen">ÄMNEN</a></li>
-                <li><a href="index2.php#portfolio">COOLA PROJEKT</a></li>
+                <li><a href="index.php#about">OM</a></li>
+                <li><a href="index.php#amnen">ÄMNEN</a></li>
+                <li><a href="index.php#portfolio">COOLA PROJEKT</a></li>
                 <li><a href="index.php#pricing">ANSÖK</a></li>
-                <li><a href="index2.php#contact">KONTAKT</a></li>
+                <li><a href="index.php#contact">KONTAKT</a></li>
             </ul>
         </div>
     </div>
