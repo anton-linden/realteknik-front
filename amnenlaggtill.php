@@ -76,8 +76,8 @@
                     <li class="dropdown">
                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">ANVÄNDARE<b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">LÄGG TILL</a></li>
-                            <li><a href="#">TA BORT</a></li>
+                            <li><a href="useradd.php">LÄGG TILL</a></li>
+                            <li><a href="userdelete.php">TA BORT</a></li>
                             <li class="divider"></li>
                             <li><a href="#">ÄNDRA</a></li>
                         </ul>

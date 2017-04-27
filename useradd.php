@@ -99,15 +99,26 @@
     <div class="amnen">
         <!-- ort namn title och telefon nummer -->
         <form action="" method="">
-            <h2>Ta bort citat</h2>
+            <h2>Lägg till en användare</h2>
 
-            <p> ID </p>
-            <input type="text" placeholder="Skriv ID som ska raderas..." name="title" id="title">
+            <p> Användarnamn </p>
+            <input type="text" placeholder="namn.." name="title" id="title">
             <br>
             <br>
+            <input type="text" placeholder="Lösenord.." name="title" id="title">
+            <br>
+            <input type="text" placeholder="Lösenordet igen.." name="title" id="title">
+            <br>
+            <br>
+            <select name="hall" id="hall" value="3">
+  <option>GAVLE</option>
+  <option>LINKOPING</option>
+  <option>NORRKOPING</option>
+                </select>
             <!-- Submit button -->
 
-            <input id="button" type="submit" name="delete_citat" value="Ta bort"></form>
+            <input id="button" type="submit" name="add_user" value="Lägg till"></form>
+    </div>
 
 </body>
 
