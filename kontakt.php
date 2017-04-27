@@ -17,7 +17,6 @@
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-
     <!--NavBar-->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -29,19 +28,64 @@
       </button>
                 <a class="navbar-brand" href="#myPage" style="font-family:myFirstFont;">REAL - TEKNIK</a>
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar" style="font-family: myFirstFont;">
-                <ul class="nav navbar-nav navbar-right">
+            <div class="collapse navbar-collapse dropdown" id="myNavbar" style="font-family: myFirstFont;">
 
-                    <li><a href="arskurs.php">ÅRSKURSER</a></li>
-                    <li><a href="projekt.php">PROJEKT</a></li>
 
-                    <li><a href="index.php">ÅRSKURSER</a></li>
+                <ul class="nav navbar-nav navbar-right ">
 
-                    <li><a href="amnen.php">ÄMNEN</a></li>
-                    <li><a href="citat.php">CITAT</a></li>
-                    <li><a href="kontakt.php">KONTAKT</a></li>
-                    <li><a href="login.php">LOGGA UT</a></li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">ÅRSKURSER <b class="caret"></b></a>
+                        <ul style="" class="dropdown-menu">
+                            <li><a href="arskurschange.php">ÄNDRA</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">PROJEKT <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">LÄGG TILL</a></li>
+                            <li><a href="#">TA BORT</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">ÄNDRA</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">ÄMNEN <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="amnenlaggtill.php">LÄGG TILL</a></li>
+                            <li><a href="amnendelete.php">TA BORT</a></li>
+                            <li class="divider"></li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">CITAT <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="citatlaggtill.php">LÄGG TILL</a></li>
+                            <li><a href="citatdelete.php">TA BORT</a></li>
+                            <li class="divider"></li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">KONTAKT <b class="caret"></b></a>
+                        <ul style="min-width: 100%; letter-spacing: 2px;" class="dropdown-menu">
+                            <li><a href="kontaktchange.php">ÄNDRA</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">ANVÄNDARE<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">LÄGG TILL</a></li>
+                            <li><a href="#">TA BORT</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">ÄNDRA</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="logout.php">LOGGA UT</a></li>
                 </ul>
+
+
+
             </div>
         </div>
     </nav>
@@ -52,76 +96,7 @@
     </div>
 
 
-    <div style="text-align: center; width:33.3333333%;" class="col-sm-6">
-        <!-- ort namn title och telefon nummer -->
-        <div style="display: inline-block;" class="gavle">
-            <h2>Gävle</h2>
 
-            <p> Namn </p>
-            <input type="text" name="name" id="name">
-            <p> Titel </p>
-            <input type="text" name="roll" id="roll">
-            <p> Telefon nummer </p>
-            <input type="text" name="nummer" id="nummer">
-            <p> Email </p>
-            <input type="text" name="email" id="email">
-            <br>
-            <br>
-            <!-- Submit button -->
-            <form action="" method="">
-                <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_kontakt" value="Lägg till"></form>
-
-        </div>
-
-    </div>
-
-    <div style="text-align: center; width:33.3333333%;" class="col-sm-6">
-        <!-- ort namn title och telefon nummer -->
-        <div style="display: inline-block;" class="lin">
-            <h2>LINKÖPING</h2>
-
-            <p> Namn </p>
-            <input type="text" name="name" id="name">
-            <p> Titel </p>
-            <input type="text" name="roll" id="roll">
-            <p> Telefon nummer </p>
-            <input type="text" name="nummer" id="nummer">
-            <p> Email </p>
-            <input type="text" name="email" id="email">
-            <br>
-            <br>
-            <!-- Submit button -->
-            <form action="" method="">
-                <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_kontakt" value="Lägg till"></form>
-
-        </div>
-
-    </div>
-    <div style="text-align: center; width:33.3333333%;" class="col-sm-6">
-        <!-- ort namn title och telefon nummer -->
-        <div style="display: inline-block;" class="norr">
-            <h2>NORRKÖPING</h2>
-
-            <p> Namn </p>
-            <input type="text" name="name" id="name">
-            <p> Titel </p>
-            <input type="text" name="roll" id="roll">
-            <p> Telefon nummer </p>
-            <input type="text" name="nummer" id="nummer">
-            <p> Email </p>
-            <input type="text" name="email" id="email">
-            <br>
-            <br>
-            <!-- Submit button -->
-            <form action="" method="">
-                <input id="button" style="float:right;margin-right:65px;" type="submit" name="add_kontakt" value="Lägg till"></form>
-
-        </div>
-
-    </div>
-    <form action="" method="">
-        <input id="button" style="float:right;margin-right:490px;" type="submit" name="del_kontakt" value="Ta bort">
-    </form>
 </body>
 
 </html>
