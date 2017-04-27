@@ -98,14 +98,15 @@
 
     <div class="amnen">
         <!-- ort namn title och telefon nummer -->
-        <h2>Ta bort citat</h2>
-
-        <p> ID </p>
-        <input type="text" placeholder="Skriv ID som ska raderas..." name="title" id="title">
-        <br>
-        <br>
-        <!-- Submit button -->
         <form action="" method="">
+            <h2>Ta bort citat</h2>
+
+            <p> ID </p>
+            <input type="text" placeholder="Skriv ID som ska raderas..." name="title" id="title">
+            <br>
+            <br>
+            <!-- Submit button -->
+
             <input id="button" type="submit" name="delete_citat" value="Ta bort"></form>
 
 </body>

@@ -97,43 +97,46 @@
 
     <!-- här är första formen för årskurs 1 -->
     <div class="edit col-sm-6">
-
-        <p> Årskurs 1 </p>
-        <p><textarea placeholder="Skriv här..." cols="40" rows="15" name="description" id="description"></textarea></p>
-        <br>
-        <br>
-        <!-- Submit button -->
         <form action="" method="">
+            <p> Årskurs 1 </p>
+            <p><textarea placeholder="Skriv här..." cols="40" rows="15" name="description" id="description"></textarea></p>
+            <br>
+            <br>
+            <!-- Submit button -->
+
             <input id="button" type="submit" name="add_information1" value="Ändra"></form>
 
     </div>
     <!-- här är andra formen för årskurs 2 -->
     <div class="edit1 col-sm-6">
-        <p> Årskurs 2 </p>
-        <p><textarea placeholder="Skriv här..." cols="40" rows="15" name="description" id="description"></textarea></p>
-        <br>
-        <br>
         <form action="" method="">
+            <p> Årskurs 2 </p>
+            <p><textarea placeholder="Skriv här..." cols="40" rows="15" name="description" id="description"></textarea></p>
+            <br>
+            <br>
+
             <input id="button" type="submit" name="add_information2" value="Ändra"></form>
 
     </div>
     <!-- här är tredje formen för årskurs 3 -->
     <div class="edit2 col-sm-6">
-        <p> Årskurs 3 </p>
-        <p><textarea placeholder="Skriv här..." cols="40" rows="15" name="description" id="description"></textarea></p>
-        <br>
-        <br>
         <form action="" method="">
+            <p> Årskurs 3 </p>
+            <p><textarea placeholder="Skriv här..." cols="40" rows="15" name="description" id="description"></textarea></p>
+            <br>
+            <br>
+
             <input id="button" type="submit" name="add_information3" value="Ändra"></form>
 
     </div>
     <div class="edit3 col-sm-6">
-        <!-- här är formen för sen då? år 4 eller jobb?  -->
-        <p> Sen då? År 4 eller jobb? </p>
-        <p><textarea placeholder="Skriv här..." cols="40" rows="15" name="description" id="description"></textarea></p>
-        <br>
-        <br>
         <form action="" method="">
+            <!-- här är formen för sen då? år 4 eller jobb?  -->
+            <p> Sen då? År 4 eller jobb? </p>
+            <p><textarea placeholder="Skriv här..." cols="40" rows="15" name="description" id="description"></textarea></p>
+            <br>
+            <br>
+
             <input id="button" type="submit" name="add_information3" value="Ändra"></form>
 
     </div>

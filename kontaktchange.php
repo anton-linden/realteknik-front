@@ -99,23 +99,24 @@
 
     <div style="text-align: center; width:33.3333333%;" class="col-sm-6">
         <!-- ort namn title och telefon nummer -->
-        <div style="display: inline-block;" class="gavle">
-            <h2>Gävle</h2>
+        <form action="" method="">
+            <div style="display: inline-block;" class="gavle">
+                <h2>Gävle</h2>
 
-            <p> Namn </p>
-            <input type="text" placeholder="Skriv namn..." name="name" id="name">
-            <p> Titel </p>
-            <input type="text" placeholder="Skriv titel..." name="roll" id="roll">
-            <p> Telefon nummer </p>
-            <input type="text" placeholder="Skriv nummer..." name="nummer" id="nummer">
-            <p> Email </p>
-            <input type="text" placeholder="Skriv email..." name="email" id="email">
-            <br>
-            <br>
-            <!-- Submit button -->
-            <form action="" method="">
+                <p> Namn </p>
+                <input type="text" placeholder="Skriv namn..." name="name" id="name">
+                <p> Titel </p>
+                <input type="text" placeholder="Skriv titel..." name="roll" id="roll">
+                <p> Telefon nummer </p>
+                <input type="text" placeholder="Skriv nummer..." name="nummer" id="nummer">
+                <p> Email </p>
+                <input type="text" placeholder="Skriv email..." name="email" id="email">
+                <br>
+                <br>
+                <!-- Submit button -->
+
                 <input id="button" type="submit" name="change_kontakt" value="Ändra">
-            </form>
+        </form>
 
         </div>
 
@@ -123,23 +124,25 @@
 
     <div style="text-align: center; width:33.3333333%;" class="col-sm-6">
         <!-- ort namn title och telefon nummer -->
-        <div style="display: inline-block;" class="lin">
-            <h2>LINKÖPING</h2>
+        <form action="" method="">
+            <div style="display: inline-block;" class="lin">
 
-            <p> Namn </p>
-            <input type="text" placeholder="Skriv namn..." name="name" id="name">
-            <p> Titel </p>
-            <input type="text" placeholder="Skriv titel..." name="roll" id="roll">
-            <p> Telefon nummer </p>
-            <input type="text" placeholder="Skriv nummer..." name="nummer" id="nummer">
-            <p> Email </p>
-            <input type="text" placeholder="Skriv email..." name="email" id="email">
-            <br>
-            <br>
-            <!-- Submit button -->
-            <form action="" method="">
+                <h2>LINKÖPING</h2>
+
+                <p> Namn </p>
+                <input type="text" placeholder="Skriv namn..." name="name" id="name">
+                <p> Titel </p>
+                <input type="text" placeholder="Skriv titel..." name="roll" id="roll">
+                <p> Telefon nummer </p>
+                <input type="text" placeholder="Skriv nummer..." name="nummer" id="nummer">
+                <p> Email </p>
+                <input type="text" placeholder="Skriv email..." name="email" id="email">
+                <br>
+                <br>
+                <!-- Submit button -->
+
                 <input id="button" type="submit" name="change_kontakt" value="Ändra">
-            </form>
+        </form>
 
         </div>
 
@@ -147,20 +150,21 @@
     <div style="text-align: center; width:33.3333333%;" class="col-sm-6">
         <!-- ort namn title och telefon nummer -->
         <div style="display: inline-block;" class="norr">
-            <h2>NORRKÖPING</h2>
-
-            <p> Namn </p>
-            <input type="text" placeholder="Skriv namn..." name="name" id="name">
-            <p> Titel </p>
-            <input type="text" placeholder="Skriv titel..." name="roll" id="roll">
-            <p> Telefon nummer </p>
-            <input type="text" placeholder="Skriv nummer..." name="nummer" id="nummer">
-            <p> Email </p>
-            <input type="text" placeholder="Skriv email..." name="email" id="email">
-            <br>
-            <br>
-            <!-- Submit button -->
             <form action="" method="">
+                <h2>NORRKÖPING</h2>
+
+                <p> Namn </p>
+                <input type="text" placeholder="Skriv namn..." name="name" id="name">
+                <p> Titel </p>
+                <input type="text" placeholder="Skriv titel..." name="roll" id="roll">
+                <p> Telefon nummer </p>
+                <input type="text" placeholder="Skriv nummer..." name="nummer" id="nummer">
+                <p> Email </p>
+                <input type="text" placeholder="Skriv email..." name="email" id="email">
+                <br>
+                <br>
+                <!-- Submit button -->
+
                 <input id="button" type="submit" name="change_kontakt" value="Ändra">
             </form>
 

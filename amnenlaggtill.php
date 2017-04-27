@@ -98,18 +98,19 @@
 
     <div class="amnen">
         <!-- ort namn title och telefon nummer -->
-        <h2>Ämne</h2>
-        <p> Bild </p>
-        <input id="file" type="file" name="bild" id="bild" />
-        <p> Titel </p>
-        <input type="text" placeholder="Ämnets namn.." name="title" id="title">
-        <br>
-        <br>
-        <p><textarea placeholder="Skriv här..." cols="20" rows="3" name="description" id="description"></textarea></p>
-        <br>
-        <br>
-        <!-- Submit button -->
         <form action="" method="">
+            <h2>Ämne</h2>
+            <p> Bild </p>
+            <input id="file" type="file" name="bild" id="bild" />
+            <p> Titel </p>
+            <input type="text" placeholder="Ämnets namn.." name="title" id="title">
+            <br>
+            <br>
+            <p><textarea placeholder="Skriv här..." cols="20" rows="3" name="description" id="description"></textarea></p>
+            <br>
+            <br>
+            <!-- Submit button -->
+
             <input id="button" type="submit" name="add_amne" value="Lägg till"></form>
     </div>
 

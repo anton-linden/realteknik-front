@@ -98,20 +98,21 @@
     <div class="citat">
 
         <!-- ort namn title och telefon nummer -->
-        <h2>Citat</h2>
-
-        <p> Citat </p>
-        <input type="text" placeholder="Citatet.." name="text" id="text">
-
-        <p> Namn </p>
-        <input type="text" placeholder="Elevens namn.." name="name" id="name">
-        <p> Skola </p>
-        <input type="text" placeholder="Skolan.." name="skola" id="skola">
-        <br>
-        <br>
-
-        <!-- Submit button -->
         <form action="" method="">
+            <h2>Citat</h2>
+
+            <p> Citat </p>
+            <input type="text" placeholder="Citatet.." name="text" id="text">
+
+            <p> Namn </p>
+            <input type="text" placeholder="Elevens namn.." name="name" id="name">
+            <p> Skola </p>
+            <input type="text" placeholder="Skolan.." name="skola" id="skola">
+            <br>
+            <br>
+
+            <!-- Submit button -->
+
             <input id="button" type="submit" name="add_citat" value="Lägg till"></form>
 
     </div>
