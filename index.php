@@ -1,53 +1,29 @@
-<?php
-    include('php/session_exit.php');
-    include('php/session.php');
-    include_once 'php/connect.php';
-
-    //Create connection
-     $connection = new mysqli($servername, $username, $password, $dbname);
- 
-    //Check connection
-    if ($connection->connect_error) {
-        die("Connection failed: " . $connection->connect_error);
-    }
-?>
- 
-<!DOCTYPE html>
-<html lang="sv">
-<head>
-    
-</head>
-    
-<body>
-    <!doctype html>
+<!doctype html>
 <html>
-
 <head>
-    <title>REAL-gymnasiets Teknikprogram</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--<link href="Css/bootstrap.min.css" rel="stylesheet" type="text/css">-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="css/Archer-Bold.otf" rel="" type="">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-    <link href="css/style_a.css" rel="stylesheet" type="text/css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<title>REAL-gymnasiets Teknikprogram</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link href="css/Archer-Bold.otf" rel="" type="">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+      <link href="css/style_a.css" rel="stylesheet" type="text/css"/>  
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<!-- php include_once("analyticstracking.php") ?>-->
 
-
-    <!--NavBar-->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+<!--NavBar-->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-                </button>
+      </button>
       <a class="navbar-brand" href="#myPage" style="font-family:myFirstFont;">REAL - TEKNIK</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar" style="font-family: myFirstFont;">
@@ -330,6 +306,7 @@ Apputvecklare, Gränssnittsdesigner, Systemvetare, Spelutvecklare, Civilingenjö
   <div class="text-center">
     <h2>Vad kan jag göra efter tre år på teknikprogrammet?</h2>
     <h4>Börja jobba - Plugga vidare</h4>
+    <p><strong>Efter examen kan du bland annat jobba som:</strong><br> Spel- och webbutvecklare, programmerare.<br><br><strong>Efter vidare studier kan du bland annat jobba som:</strong><br> Apputvecklare, gränsnittsdesigner, systemutvecklare, spelutvecklare, civilingenjör, högskoleingenjör.<br></p>
   </div>
 </div>
 
@@ -371,17 +348,94 @@ Apputvecklare, Gränssnittsdesigner, Systemvetare, Spelutvecklare, Civilingenjö
       <div class="row">
         <div class="col-sm-12 form-group">
           <button class="btn btn-default pull-right" type="submit">Skicka</button>
->>>>>>> stad-nav-mallar
         </div>
-    </nav>
-    
-        <!--Header med text-->
-    <div class="jumbotron text-center">
-        <h1 style="font-family: myFirstFont;"><img alt="" src="img/teknik-rosa.png" width="60" height="60" />&nbsp;&nbsp;&nbsp;&nbsp;Teknik</h1>
-        <p style="font-family: myFirstFont; font-size:24px;">Gör det roligt - Lär på riktigt</p>
+      </div>
     </div>
+  </div>
+</div>
+
+<div id="map" style="height:400px;width:100%;"></div>
+<script>
+      function initMap() {
+        var norrk = 
+			{lat: 58.58886949999999, lng: 16.177890700000034};
+		var gavle =
+			{lat: 60.67560899999999, lng: 17.14703600000007};
+		var linkoping =
+			{lat: 58.41793379999999, lng: 15.616758000000004};
+		var centrum =
+			{lat: 59.32932349999999, lng: 18.068580800000063};
+		
+		
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 6,
+          center: centrum
+        });
+        var marker = new google.maps.Marker({
+          position: norrk,
+          map: map
+        });
+		var marker = new google.maps.Marker({
+          position: gavle,
+          map: map
+        });
+		var marker = new google.maps.Marker({
+          position: linkoping,
+          map: map
+        });
+      }
+    </script>
     
-    Det här är adminsidan. Om du kommer hit så har något gått rätt till.
+
+<!-- Add Google Maps --><!--AIzaSyCMGe9k4MP6nYMH6QelA_FvFF7mQDQhyBc-->
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMGe9k4MP6nYMH6QelA_FvFF7mQDQhyBc&callback=initMap">
+    </script>
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Sidan konstruerad och byggd av elever vid det gymnasieingenjörsprogrammet på Real i Norrköping. Design by Holmes o Co</p>
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
 </body>
-    
 </html>

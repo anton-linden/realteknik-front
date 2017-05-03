@@ -14,7 +14,7 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-<?php include_once("analyticstracking.php") ?>
+<!-- php include_once("analyticstracking.php") ?>
 
 <!--NavBar-->
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -25,7 +25,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-        <a href="index.php#myPage" class="navbar-brand" href="#myPage" style="font-family:myFirstFont;">REAL - TEKNIK</a>
+        <a href="index.php" class="navbar-brand" href="#myPage" style="font-family:myFirstFont;">REAL - TEKNIK</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar" style="font-family: myFirstFont;">
       <ul class="nav navbar-nav navbar-right">
