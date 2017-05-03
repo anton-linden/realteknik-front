@@ -14,7 +14,7 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-<?php include_once("analyticstracking.php") ?>
+<!--?php include_once("analyticstracking.php") ?>
 
 <!--NavBar-->
 <nav class="navbar navbar-default navbar-fixed-top">
