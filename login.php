@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html>
 <head>
+    <meta charset="utf-8">
     <title> Login Page </title>
     
     <!-- CSS -->
@@ -15,7 +16,7 @@
             <input type="text" autocomplete="off" id="user" name="user" />
         </p>
         <p>
-            <label> Lösenord: </label>
+            <label> Lösenord:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
             <input type="password" autocomplete="off" id="pass" name="pass" />
             <li><a href="signup.php"> Skapa ny användare </a></li><br><br>
             <li><a href="users.php"> Hantera användare </a></li>
