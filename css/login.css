@@ -1,0 +1,121 @@
+body {
+    background: #eee;
+}
+
+form {
+    border:  solid gray 1px;
+    width: 220px;
+    border-radius: 5px;
+    margin: 0 auto;
+    background: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #bed000;
+}
+
+#validation{
+    border: solid gray 1px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 0 auto;
+    background: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    font-family: Arial;
+    text-align: center;
+    background-color: #bed000;
+}
+
+#validation a{
+    width: 60px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: #e5005a;
+    line-height: 1.2em;
+    border: 0px solid black;
+    border-radius: 0.2em;
+    color: white;
+}
+
+.users {
+    margin-top:5%;
+    width: 30%;
+    height: 500px;
+}
+
+#users{
+    font-family: arial;
+}
+
+#users #button{
+    width: 70px;
+    margin-top: 20px;
+}
+
+.admins{
+    border-bottom: solid 2px;
+}
+
+checked_id{
+    float: right;
+}
+
+#validation img{
+    padding-bottom: 20px;
+}
+
+#logotype {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#button {
+    width: 60px;
+    margin-left: 79%;
+    background-color: #e5005a;
+    line-height: 1.2em;
+    border: 1px solid black;
+    border-radius: 0.2em;
+    color: white;
+}
+
+label {
+    font-family: Arial;
+}
+
+input {
+    font-size: 1.1em;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 0.2em;
+}
+
+select {
+    width: 90%;
+    font-size: 1.1em;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 0.2em;
+}
+
+li{
+    list-style: none;
+    margin: 0 auto;
+    margin-left: 15%;
+    float: left;
+    height: 2em;
+    text-align: center;
+}
+
+p {
+    border: thin solid black(0);
+    width: 70%;
+    margin-left: 15%;
+}
+
