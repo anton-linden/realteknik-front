@@ -47,73 +47,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-      </button>
-<<<<<<< HEAD
-                <a class="navbar-brand" href="#myPage" style="font-family:myFirstFont;">REAL - TEKNIK</a>
-            </div>
-            <div class="collapse navbar-collapse dropdown" id="myNavbar" style="font-family: myFirstFont;">
-
-
-                <ul class="nav navbar-nav navbar-right ">
-
-                    <li class="dropdown">
-                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">ÅRSKURSER <b class="caret"></b></a>
-                        <ul style="" class="dropdown-menu">
-                            <li><a href="php/arskurser/andra.php">ÄNDRA</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">PROJEKT <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">LÄGG TILL</a></li>
-                            <li><a href="#">TA BORT</a></li>
-                            <li><a href="#">ÄNDRA</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">ÄMNEN <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="php/amnen/Lagg-Till.php">LÄGG TILL</a></li>
-                            <li><a href="php/amnen/Ta-Bort.php">TA BORT</a></li>
-                           
-
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">CITAT <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="php/citat/Lagg-Till.php">LÄGG TILL</a></li>
-                            <li><a href="php/citat/Ta-Bort.php">TA BORT</a></li>
-                           
-
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">KONTAKT <b class="caret"></b></a>
-                        <ul style="min-width: 100%; letter-spacing: 2px;" class="dropdown-menu">
-                            <li><a href="php/kontakt/andra.php">ÄNDRA</a></li>
-                        </ul>
-                    </li>
-                    <?php
-                    if($site_session === "admin")
-                    {
-                        echo '<li class="dropdown">';
-                        echo '<a href="#" data-toggle="dropdown" class="dropdown-toggle">ANVÄNDARE<b class="caret"></b></a>';
-                        echo '<ul class="dropdown-menu">';
-                        echo '<li><a href="#">LÄGG TILL</a></li>';
-                        echo '<li><a href="#">TA BORT</a></li>';
-                        echo '<li><a href="#">ÄNDRA</a></li>';
-                        echo '</ul>';
-                        echo '</li>';
-                    }
-                    ?>
-                    <li><a href="php/logout.php">LOGGA UT</a></li>
-                </ul>
-
-
-
-            </div>
-=======
+                </button>
       <a class="navbar-brand" href="#myPage" style="font-family:myFirstFont;">REAL - TEKNIK</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar" style="font-family: myFirstFont;">
