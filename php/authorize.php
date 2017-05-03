@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
-<html lang="sv">
+<html>
 <head>
+    <meta charset="utf-8">
     <title> Registering </title>
     
     <!-- CSS -->
