@@ -183,23 +183,23 @@ Apputvecklare, Gränssnittsdesigner, Systemvetare, Spelutvecklare, Civilingenjö
   <div class="row text-center slideanim">
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="img/paris.jpg" alt="Paris" width="400" height="300">
-        <p><strong>Paris i 3D</strong></p>
-        <p>Vi byggde hela Paris i 3D.</p>
+        <img src="img/Norrkoping.jpg" alt="Paris" width="400" height="300">
+        <h2 style="margin-bottom: 15px;"><strong>Norrköping</strong></h2>
+        <a style="font-size: 20px; color: #bed000;" href="ort-norrkoping.php">Läs mer här</a>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="img/newyork.jpg" alt="New York" width="400" height="300">
-        <p><strong>Flyg över New York</strong></p>
-        <p>Besök New York i HTC Vive.</p>
+        <img src="img/Linkoping.jpg" alt="New York" width="400" height="300">
+        <h2 style="margin-bottom: 15px;"><strong>Linköping</strong></h2>
+        <a style="font-size: 20px; color: #bed000;" href="ort-linkoping.php">Läs mer här</a>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="img/sanfran.jpg" alt="San Francisco" width="400" height="300">
-        <p><strong>Bygg en bro</strong></p>
-        <p>Bygg en bro med Mecano.</p>
+        <img src="img/Linkoping.jpg" alt="San Francisco" width="400" height="300">
+        <h2 style="margin-bottom: 15px;"><strong>Gävle</strong></h2>
+        <a style="font-size: 20px; color: #bed000;" href="ort-gavle.php">Läs mer här</a>
       </div>
     </div>
   </div><br>
