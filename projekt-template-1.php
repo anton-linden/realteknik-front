@@ -57,6 +57,7 @@
         <div class="col-sm-4">
             <img style="width:100%;" src="https://vignette4.wikia.nocookie.net/joke-battles/images/5/5a/Black.jpg/revision/latest?cb=20161223050425"/>
             <h2 style="top:130px; right:200px; position:absolute; color:white;">EN BILD / VidEO</h2>
+
         </div>
         
     </div>
