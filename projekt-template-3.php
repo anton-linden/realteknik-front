@@ -45,20 +45,18 @@
   <p style="font-family: myFirstFont; font-size:24px;">"Elevernas-Namn"</p>
 </div>
 
-<div style="padding: 60px 50px;" id="about" class="container-fluid">
+<div style="padding: 60px 50px;" class="container-fluid">
     <div class="row">
-        <div class="col-sm-8">
-            <h2>Liten Projekt Beskrivning</h2><br>
-            <h4>Projektets Syfte</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at iaculis nibh. Mauris ornare metus ac enim consequat sollicitudin. Aenean pretium molestie dui, vel ultrices ipsum dictum non. Donec congue sapien eget vehicula maximus. Integer at risus nec nunc mattis volutpat non et urna. Vivamus vitae mollis massa, ut aliquam arcu. Nam vel neque varius, viverra lorem sit amet, gravida odio. Nulla varius nisi sit amet dui venenatis, quis pulvinar orci convallis. Suspendisse pretium orci id nunc gravida tincidunt. Pellentesque ornare ut elit et sodales. Maecenas scelerisque viverra enim vel dignissim. Duis mollis pretium dui, a molestie libero convallis vitae. Aliquam pharetra eu nibh quis consectetur. <br> <br>
-
-            Nam id mi gravida, laoreet metus congue, pharetra nulla. Ut porta tempus diam consequat vehicula. Ut ac eros quam. Integer metus risus, lacinia id tortor eu, cursus bibendum ex. Mauris eget lacus quis eros ultricies tristique quis vel lacus. Proin sed laoreet leo, quis gravida nibh. Proin in metus mattis, maximus nisi nec, accumsan magna.</p><br>
-        </div>
         <div class="col-sm-4">
-            <img style="width:100%;" src="https://vignette4.wikia.nocookie.net/joke-battles/images/5/5a/Black.jpg/revision/latest?cb=20161223050425"/>
+          <img style="width: 100%;" src="http://www.solidbackgrounds.com/images/2560x1440/2560x1440-black-solid-color-background.jpg">
             <h2 style="top:130px; right:200px; position:absolute; color:white;">EN BILD / VidEO</h2>
         </div>
-        
+        <div class="col-sm-8">
+              <h2>Elevenas upplevelse </h2><br>
+              <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
+              <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
     </div>
 </div>
     
@@ -78,13 +76,25 @@
         </div>
     </div>
 </div>
+    
+<div style="padding: 60px 50px;" class="container-fluid">
+    <div class="row">
+        <div class="col-sm-4">
+          <img style="width: 100%;" src="http://www.solidbackgrounds.com/images/2560x1440/2560x1440-black-solid-color-background.jpg">
+            <h2 style="top:130px; right:200px; position:absolute; color:white;">EN BILD / VidEO</h2>
+        </div>
+        <div class="col-sm-8">
+              <h2>Elevenas upplevelse </h2><br>
+              <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
+              <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </div>
+</div>
 
-    
-    
-    
-    <!--
-    <script>
-$(document).ready(function(){
+   <!-- 
+<script> 
+ $(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link
   $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior
@@ -119,7 +129,7 @@ $(document).ready(function(){
   });
 })
 </script>
+
     -->
-    
 </body>
 </html>
