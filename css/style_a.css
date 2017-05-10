@@ -285,6 +285,28 @@ footer .glyphicon {
     box-shadow: 0 5px 10px #666;
 }
 
+.edit4 {
+    margin: 15px;
+    padding-bottom: 20px;
+    width: 370px;
+    text-align: center;
+    padding-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 0 5px 10px #666;
+}
+
+.edit5 {
+    margin: 15px;
+    padding-bottom: 20px;
+    width: 370px;
+    text-align: center;
+    padding-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 0 5px 10px #666;
+}
+
 .citat {
     margin: 15px;
     padding-bottom: 20px;
@@ -345,8 +367,8 @@ footer .glyphicon {
     border-radius: 4px;
     box-shadow: 0 5px 10px #666;
 }
-=======
-@charset "utf-8";
+
+=======@charset "utf-8";
 
 /* CSS Document */
 
@@ -704,8 +726,7 @@ div.ProjektGallery:hover {
     border: 1px solid #777;
 }
 
-div.ProjektGallery img {
-}
+div.ProjektGallery img {}
 
 div.desc {
     padding: 15px;
