@@ -1,13 +1,6 @@
 <?php
-    include('../phpsession.php');
-
-    //Create connection
-     $connection = new mysqli($servername, $username, $password, $dbname);
-
-    //Check connection
-    if ($connection->connect_error) {
-        die("Connection failed: " . $connection->connect_error);
-    }
+    include('../session.php');
+    include_once '../connect.php';
 ?>
     <!doctype html>
     <html>
@@ -80,37 +73,79 @@
                                 <li><a href="../kontakt/andra.php">ÄNDRA</a></li>
                             </ul>
                         </li>
-                        <?php
-                    if($site_session === "admin")
-                    {
-                        echo '<li class="dropdown">';
-                        echo '<a href="#" data-toggle="dropdown" class="dropdown-toggle">ANVÄNDARE<b class="caret"></b></a>';
-                        echo '<ul class="dropdown-menu">';
-                        echo '<li><a href="#">LÄGG TILL</a></li>';
-                        echo '<li><a href="#">TA BORT</a></li>';
-                        echo '<li><a href="#">ÄNDRA</a></li>';
-                        echo '</ul>';
-                        echo '</li>';
-                    }
-                    ?>
-                            <li><a href="../logout.php">LOGGA UT</a></li>
-                    </ul>
-
-
-
                 </div>
             </div>
+            </div>
         </nav>
-        <!--Header med text-->
-        <div class="jumbotron text-center">
-            <h1 style="font-family: myFirstFont;"><img alt="" src="../../img/teknik-rosa.png" width="60" height="60" />&nbsp;&nbsp;&nbsp;&nbsp;Teknik</h1>
-            <p style="font-family: myFirstFont; font-size:24px;">Gör det roligt - Lär på riktigt</p>
-        </div>
+        <br>
+        <br>
+        <br>
+        <div class="edit1 col-sm-6">
+            <form action="projektAdd.php" method="post" enctype="multipart/form-data" runat="server">
+                <p>Rubrik:</p><input type="text" name="rubrik"><br><br>
+                <p>Liten Rubrik:</p><input type="text" name="Minirubrik"><br><br>
+                <p>Bild:</p>
 
-        <form action="projektRemove.php" method="post">
-            ID<input type="text" name="ID">
-            <button type="submit">Delete</button>
-        </form>
+                <input type="file" name="upload"><br>
+                <p>Bild text:</p> <input type="text" name="bNamn"><br>
+                <p>Brödtext:</p>
+                <p><textarea placeholder="Skriv här..." cols="25" rows="5" name="description" id="description"></textarea></p>
+                <br>
+                <p>Bild2:</p>
+
+                <input type="file" name="upload"><br>
+                <p>Bild text2:</p> <input type="text" name="bNamn"><br>
+                <p>Brödtext2:</p>
+                <p><textarea placeholder="Skriv här..." cols="25" rows="5" name="description" id="description"></textarea></p>
+                <br>
+                <button type="submit">Spara</button>
+
+            </form>
+        </div>
+        <div class="edit2 col-sm-6">
+            <form action="projektAdd.php" method="post" enctype="multipart/form-data" runat="server">
+                <p>Rubrik:</p><input type="text" name="rubrik"><br><br>
+                <p>Liten Rubrik:</p><input type="text" name="Minirubrik"><br><br>
+                <p>Bild:</p>
+
+                <input type="file" name="upload"><br>
+                <p>Bild text:</p> <input type="text" name="bNamn"><br>
+                <p>Brödtext:</p>
+                <p><textarea placeholder="Skriv här..." cols="25" rows="5" name="description" id="description"></textarea></p>
+                <br>
+                <p>Bild2:</p>
+
+                <input type="file" name="upload"><br>
+                <p>Bild text2:</p> <input type="text" name="bNamn"><br>
+                <p>Brödtext2:</p>
+                <p><textarea placeholder="Skriv här..." cols="25" rows="5" name="description" id="description"></textarea></p>
+                <br>
+                <button type="submit">Spara</button>
+
+            </form>
+        </div>
+        <div class="edit3 col-sm-6">
+            <form action="projektAdd.php" method="post" enctype="multipart/form-data" runat="server">
+                <p>Rubrik:</p><input type="text" name="rubrik"><br><br>
+                <p>Liten Rubrik:</p><input type="text" name="Minirubrik"><br><br>
+                <p>Bild:</p>
+
+                <input type="file" name="upload"><br>
+                <p>Bild text:</p> <input type="text" name="bNamn"><br>
+                <p>Brödtext:</p>
+                <p><textarea placeholder="Skriv här..." cols="25" rows="5" name="description" id="description"></textarea></p>
+                <br>
+                <p>Bild2:</p>
+
+                <input type="file" name="upload"><br>
+                <p>Bild text2:</p> <input type="text" name="bNamn"><br>
+                <p>Brödtext2:</p>
+                <p><textarea placeholder="Skriv här..." cols="25" rows="5" name="description" id="description"></textarea></p>
+                <br>
+                <button type="submit">Spara</button>
+
+            </form>
+        </div>
 
     </body>
 
